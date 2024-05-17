@@ -122,8 +122,8 @@ p {
 }
 
 .header-image {
-  width: 891px; 
-  height: 282px; 
+  width: 500px; 
+  height: 966px; 
   display: flex;
   height: 100%;
   position: relative;
@@ -131,24 +131,43 @@ p {
 
 .header-image img {
   width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  /* transform: rotate(270deg); */
+}
+
+.first-image {
+  width: 250px;
+    height: 650px;
+    z-index: 5;
+}
+
+.first-image img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: rotate(270deg);
 }
 
 .second-image { 
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
+  /* position: absolute; */
+  /* top: 0;
+  left: 66px; */
+  height: 650px;
   position: absolute;
   top: 0;
-  left: 66px;
-  width: 100%;
-  height: 100%;
+  left: 7%;
 }
 
+.second-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .below-nav-bar-inner-wrapper {
   display: flex;
-  padding: 110px 0;
+  /* padding: 110px 0; */
 }
 
 .header-words {
