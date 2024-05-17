@@ -100,6 +100,7 @@ p {
 }
 
 .header-title {
+  padding: 100px 0 15px 0;
 }
 
 .header-image {
@@ -264,6 +265,7 @@ padding: 30px 20px;
 height: 100%;
 margin: 0 75px 0 0;
 position: relative;
+
 }
 
 .port-desc {
@@ -298,7 +300,7 @@ position: relative;
 .list-of-cards {
   display: flex;
   gap: 30px;
-  padding: 70px 0 0 0;
+  padding: 70px 0 100px;
 }
 
 .each-card-item {
@@ -567,4 +569,116 @@ position: relative;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.features-main-wrapper {
+  background-color: #C9E7F2;
+}
+
+.each-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 70px 0 30px;
+  width: 31%;
+}
+
+.each-card:hover {
+  transform: rotate(-5deg);
+  transition: 0.3s;
+}
+
+.features-icon {
+  margin: 0;
+}
+
+.featured-desc {
+  width: 42%;
+}
+
+.divided-card {
+  width: 31%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.each-divided-card {
+  border-radius: 15px;
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.each-divided-card:hover {
+  transform: rotate(-5deg);
+  transition: 0.3s;
+}
+
+.card-title-header {
+  font-weight: 800;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: var(--main-header-font)
+}
+
+.card-description-features {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.testimonials-main-wrapper {
+  background-color: #FAFBFF;
+}
+
+.testimonials-inner-wrapper {
+  padding: 100px 0;
+}
+
+.testimonial-main-header {
+  font-weight: 800;
+  font-size: 71px;
+  font-family: var(--main-header-font);
+  line-height: 66px;
+}
+
+.testimonial-para {
+  width: 48%;
+  padding: 30px 0 0 0;
+}
+
+.portfolio-image {
+  width: 240px;
+  height: 350px;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* overflow: hidden; */
+}
+
+.test-desc {
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.testimonial-saying {
+  width: 54%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.portfolio-words-wrapper {
+  width: 52%;
+}
+
+.each-slider-section {
+  position: relative;
+    padding: 20px;
 }
