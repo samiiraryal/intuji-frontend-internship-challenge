@@ -14,6 +14,10 @@
   --para-desc: #64607D;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: var(--main-header-font);
   font-weight: 800;
@@ -775,6 +779,7 @@ position: relative;
 
 .each-upper-recent-blog {
   display: flex;
+  padding: 60px 0 0 0;
 }
 
 .upper-blog-words {
@@ -849,6 +854,10 @@ position: relative;
   background-color: #FAFBFF;
 }
 
+.frequently-asked-main-questions-inner-wrapper {
+  padding: 25px 0 60px 0;
+}
+
 .accordion-item:first-of-type>.accordion-header .accordion-button {
   background-color: white;
 }
@@ -861,6 +870,12 @@ position: relative;
 .accordion-wrapper-section {
   display: flex;
   gap: 40px;
+}
+
+.accordion-title-text {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 22px;
 }
 
 .actual-accordion-section {
@@ -904,4 +919,93 @@ position: relative;
   color: white ;
   padding: 15px 0;
   margin: 50px 0 0 0;
+}
+
+.buttom-btn:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.3s;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.footer-section-main-wrapper {
+  background-color: #fafbff;
+}
+
+.footer-section-inner-wrapper {
+  padding: 100px 0;
+  display: flex;
+  gap: 80px;
+}
+
+.list-of-socials {
+  display: flex;
+  gap: 10px;
+}
+
+.each-social a{
+  color: #3734A9;
+}
+
+.each-social:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+.each-footer-part {
+  width: 20%;
+}
+
+.newsletter-part {
+  width: 30%;
+}
+
+.newsletter-part input {
+  padding: 10px;
+}
+
+.each-footer-part ul {
+  padding: 0;
+}
+
+.each-footer-part ul li {
+  list-style: none;
+  padding: 5px 0;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.each-footer-part ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.each-footer-part ul li:hover {
+  transform: translate(10px);
+  transition: 0.7s;
+}
+
+.footer-desc {
+  color: #757095;
+  font-family: var(--main-header-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 5% 17% 0 0;
+}
+
+.footer-header {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  padding: 0 0 10px 0;  
+}
+
+.footer-btn {
+  background-color: #3734A9;
+  color: white;
+  padding: 12px;
+  border: none;
 }
