@@ -844,3 +844,64 @@ position: relative;
 .recent-blogs-lower-header {
   padding: 0 22% 0 0 ;
 }
+
+.frequently-asked-questions-main-wrapper {
+  background-color: #FAFBFF;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+  background-color: white;
+}
+
+.accordion-item {
+  margin: 15px 0;
+  border: 1px solid lightgray;
+}
+
+.accordion-wrapper-section {
+  display: flex;
+  gap: 40px;
+}
+
+.actual-accordion-section {
+  width: 75%;
+}
+
+.right-message-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 25px 20px;
+  text-align: center;
+  width: 40%;
+}
+
+.icon-part {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.icon-part i {
+  font-size: 63px;;
+}
+
+.more-question {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 800;
+  padding: 40px 0 25px 0;
+}
+
+.accordion-section-desc {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
+  padding: 0 20px;
+}
+
+.buttom-btn {
+  background-color: #FF7F5C;
+  color: white ;
+  padding: 15px 0;
+  margin: 50px 0 0 0;
+}
